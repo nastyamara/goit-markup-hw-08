@@ -1,0 +1,21 @@
+.address-link {
+    line-height: 1.71;
+    color: var(--contrast-text-h-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-contacts {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer-contacts-container {
+    display: flex;
+    gap: 70px;
+    align-items: baseline;
+}
