@@ -1,5 +1,11 @@
 .directions {
     padding-top: 0;
+    display: none;
+   
+
+    @media screen and (min-width: 1140px) {
+       display: block;
+    }
 }
 
 .directions__title {

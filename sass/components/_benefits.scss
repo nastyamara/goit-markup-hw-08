@@ -2,11 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-width: 450px;
+
 height: 120px;
     margin-bottom: 30px;
     border-radius: 4px;
     background-color: var(--main-bgd-color);
+        @media screen and (min-width: 480px) {
+                width: 450px;
+            }
 
     
     @media screen and (min-width: 768px) {
