@@ -10,7 +10,11 @@
 .contacts__list {
 display: none;
 
-    @media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
+   display: block; 
+}
+
+    @media screen and (min-width: 1200px) {
                 list-style: none;
                     display: flex;
                     margin-left: auto;

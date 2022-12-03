@@ -10,6 +10,7 @@
       justify-content: center;
       align-items: center;
       transition: opacity 150ms linear, visibility 150ms linear;
+      overflow-y: scroll;
 
       @media screen and (max-width: 767px){
         padding: 93px 15px;
@@ -33,12 +34,12 @@
       padding: 40px;
       transition: transform 200ms ease;
 
-      @media screen and (min-width: 480){
+      @media screen and (min-width:480px){
             width: 450px;
             min-height: 609px;
       }
 
-      @media screen and (min-width: 1200) {
+      @media screen and (min-width: 1200px) {
             width: 528px;
             min-height: 581px;
       }
