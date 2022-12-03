@@ -8,7 +8,7 @@
 
 
 
-            @media screen and (min-width: 1140px) {
+            @media screen and (min-width: 1200px) {
             font-size: 36px;
             margin-bottom: 50px;
             }
@@ -18,13 +18,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    
     flex-wrap: wrap;
+    margin: -15px;
 
     @media screen and (min-width: 768px) {
+        
     }
     
-        @media screen and (min-width: 1140px) {
+        @media screen and (min-width: 1200px) {
             font-size: 36px;
             margin-bottom: 50px;
         }
@@ -34,14 +36,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 170px;
+    
     height: 92px;
+    margin: 15px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     color: #AFB1B8;
     transition-property: border, color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        @media screen and (min-width:480px) {
+                width: 210px;
+            }
+        
+            @media screen and (min-width: 768px) {
+                width: 226px;
+            }
+        
+            @media screen and (min-width: 1200px) {
+                width: 170px;
+        
+            }
+
+
 
 &:hover,
 &:focus {
@@ -52,4 +70,13 @@
 .client-icon {
     fill: currentColor;
 }
+
+.clients-item {
+@media screen and (max-width: 479px) {
+    width: calc((100% / 2) - 30px);
+        }
+  
+}
+
+
 

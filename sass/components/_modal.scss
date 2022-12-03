@@ -10,6 +10,10 @@
       justify-content: center;
       align-items: center;
       transition: opacity 150ms linear, visibility 150ms linear;
+
+      @media screen and (max-width: 767px){
+        padding: 93px 15px;
+      }
   }
 
   .is-hidden {
@@ -23,12 +27,21 @@
       /* top: 50%;
     left: 50%;
     transform: translate(-50%,-50%); */
-      width: 528px;
-      min-height: 581px;
+     
       background-color: #fff;
       border-radius: 4px;
       padding: 40px;
       transition: transform 200ms ease;
+
+      @media screen and (min-width: 480){
+            width: 450px;
+            min-height: 609px;
+      }
+
+      @media screen and (min-width: 1200) {
+            width: 528px;
+            min-height: 581px;
+      }
 
   }
 
