@@ -93,19 +93,25 @@
             <div class="container">
             <h2 class="directions__title title">Чим ми займаємося</h2>
             <ul class="directions__list list">
-                <li class="directions__item"> <img src=".//images/box1_sq.jpg" alt="Монітор комп'ютера, екран планшета та клавіатура" width="370"
+                <li class="directions__item"> <img 
+                    srcset="./images/box1_sq.jpg 1x, ./images/adaptive/desktop/apps2.jpg 2x"
+                    src="./images/box1_sq.jpg" alt="Монітор комп'ютера, екран планшета та клавіатура" width="370"
                         height="294">
                     <!-- <div class="studio-prj-thumb"> -->
                         <p class="directions__name">Десктопні додатки</p>
                         <!-- <div> -->
                         </li>
-                <li class="directions__item"> <img src="./images/box2_sq.jpg" alt="Мобільний телефон біля ноутбуку з макетом мобільного додатку"
+                <li class="directions__item"> <img 
+                    srcset="./images/box2_sq.jpg 1x, images/adaptive/desktop/mob_apps2.jpg 2x"
+                    src="./images/box2_sq.jpg" alt="Мобільний телефон біля ноутбуку з макетом мобільного додатку"
                         width="370" height="294">
                         <!-- <div class="studio-prj-thumb"> -->
                             <p class="directions__name">Мобільні додатки</p>
                             <!-- <div> -->
                             </li>
-                <li class="directions__item"> <img src="./images/box3_sq.jpg" alt="Пантон на екрані планшета" width="370" height="294">
+                <li class="directions__item"> <img 
+                    srcset="./images/box3_sq.jpg 1x, ./images/adaptive/desktop/designs2.jpg 2x"
+                    src="./images/box3_sq.jpg" alt="Пантон на екрані планшета" width="370" height="294">
                 <!-- <div class="studio-prj-thumb"> -->
                     <p class="directions__name">Дизайнерські рішення</p>
                     <!-- <div> -->
@@ -119,12 +125,23 @@
             <h2 class="team__title title">Наша команда</h2>
     <ul class="list team__list">
         <li class="team__item">
-         <img src="./images/ihor1_sq.jpg" alt="фото" width="270" height="260">
+         <img 
+         srcset="
+        ./images/adaptive/desktop/img_270.jpg 270w,
+        ./images/adaptive/tablet/img_354.jpg 354w,
+        ./images/adaptive/mobile/img_450.jpg 450w, 
+        ./images/adaptive/desktop/img@2x_540.jpg 540w, 
+        ./images/adaptive/tablet/img@2x_708.jpg 780w, 
+        ./images/adaptive/mobile/img@2x_900.jpg 900w
+        "
+        sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+         src="./images/adaptive/mobile/img_450.jpg" alt="фото" width="450" height="460">
 <div class="team__description">
      <h3 class="team__name title">Ігор Дем'яненко</h3>
      <p class="team__position"> Product Designer</p>
    
-     <ul class="list socials"><li>
+     <ul class="list socials">
+        <li>
        <a class="socials__link link"
        href=""
        target="_blank"
@@ -154,7 +171,16 @@
 </div>
      </li>
      <li class="team__item">
-         <img src="./images/olha2_sq.jpg" alt="фото" width="270" height="260">
+         <img srcset="
+        ./images/adaptive/desktop/img-1_270.jpg 270w,
+        ./images/adaptive/tablet/img-1_354.jpg 354w,
+        ./images/adaptive/mobile/img-1_450.jpg 450w, 
+        ./images/adaptive/desktop/img@2x-1_540.jpg 540w, 
+        ./images/adaptive/tablet/img@2x-1_708.jpg 780w, 
+        ./images/adaptive/mobile/img@2x-1_900.jpg 900w
+        "
+        sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+         src="./images/adaptive/mobile/img-1_450.jpg" alt="фото" width="450" height="460">
             <div class="team__description">
             <h3 class="team__name title">Ольга Рєпіна</h3>
         <p class="team__position">Frontend Developer</p>
@@ -181,7 +207,15 @@
         </div>
     </li>
     <li class="team__item">
-    <img src="./images/mykola3_sq.jpg" alt="фото" width="270" height="260">
+    <img srcset="
+            ./images/adaptive/desktop/img-2_270.jpg 270w,
+            ./images/adaptive/tablet/img-2_354.jpg 354w,
+            ./images/adaptive/mobile/img-2_450.jpg 450w, 
+            ./images/adaptive/desktop/img@2x-2_540.jpg 540w, 
+            ./images/adaptive/tablet/img@2x-2_708.jpg 780w, 
+            ./images/adaptive/mobile/img@2x-2_900.jpg 900w
+            " sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+        src="./images/adaptive/mobile/img-2_450.jpg" alt="фото" width="450" height="460">
     <div class="team__description"> <h3 class="team__name title">Микола Тарасов</h3>
     <p class="team__position">Marketing</p>
     <ul class="list socials">
@@ -207,7 +241,15 @@
          </div>
      </li>
     <li class="team__item">
-         <img src="./images/myhailo4_sq.jpg" alt="фото" width="270" height="260">
+        <img srcset="
+                    ./images/adaptive/desktop/img-3_270.jpg 270w,
+                    ./images/adaptive/tablet/img-3_354.jpg 354w,
+                    ./images/adaptive/mobile/img-3_450.jpg 450w, 
+                    ./images/adaptive/desktop/img@2x-3_540.jpg 540w, 
+                    ./images/adaptive/tablet/img@2x-3_708.jpg 780w, 
+                    ./images/adaptive/mobile/img@2x-3_900.jpg 900w
+                    " sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+            src="./images/adaptive/mobile/img-3_450.jpg" alt="фото" width="450" height="460">
          <div class="team__description"><h3 class="team__name title">Михайло Єрмаков</h3>
          <p class="team__position">UI Designer</p>
     <ul class="list socials">
