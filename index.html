@@ -313,7 +313,7 @@
      <footer class="footer ">
         <div class="container footer-container">
             <div class="footer-contacts-container">
-            <div>
+            <div class="address-container">
         <a href="./index.html" class=" logo footer__logo"><span class="logo__decoration"> Web</span><span class="footer__logo--inverse">Studio</span> </a>
         <address class="address-list">
             <ul class="list footer-list">
@@ -420,22 +420,20 @@
     </div>
         <div class="menu-container js-menu-container" id="mobile-menu">
             <button class="menu-toggle js-close-menu">
-                <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                    <path fill-rule="evenodd"
-                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                        clip-rule="evenodd"></path>
+                <svg width="24" height="24">
+                    <use href="./images/icons.svg#mobile-close"></use>
                 </svg>
             </button>
         
             <ul class="mobile-menu">
-                <li><a href="./index.html" class="link ">Студія</a></li>
-                <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-                <li><a href="" class="link">Контакти</a></li>
+                <li><a href="./index.html" class="link mob-nav-link mob-nav-current">Студія</a></li>
+                <li><a href="./portfolio.html" class="link mob-nav-link">Портфоліо</a></li>
+                <li><a href="" class="link mob-nav-link">Контакти</a></li>
                 
             </ul>
            
             <ul class="mobile__contacts list">
-                <li class="contacts__item mobile__phone"><a href="tel:+380961111111" class="contacts__link  phone__link link">
+                <li class="mobile__phone"><a href="tel:+380961111111" class="contacts__link  phone__link link">
                         +38 096 111 11 11</a></li>
                 <li class="contacts__item mobile__mail"><a href="mailto:info@devstudio.com" class="contacts__link link">
                         info@devstudio.com</a></li>
@@ -443,9 +441,9 @@
             </ul>
 
            <ul class="list mobile__socials">
-            <li class="mobile-item"> <a href="" class="mobile__link link">Instagram</a></li>
-            <li class="mobile-item"> <a href="" class="mobile__link link">Twitter</a></li>
-            <li class="mobile-item"> <a href="" class="mobile__link link">Facebook</a></li>
+            <li class="mobile-item"> <a href="" class="mobile__link link">Instagram<span class="mobile-decoration">|</span></a></li>
+            <li class="mobile-item"> <a href="" class="mobile__link link">Twitter<span class="mobile-decoration">|</span></a></li>
+            <li class="mobile-item"> <a href="" class="mobile__link link">Facebook<span class="mobile-decoration">|</span></a></li>
             <li class="mobile-item"> <a href="" class="mobile__link link">LinkedIn</a></li>
            </ul>
        
